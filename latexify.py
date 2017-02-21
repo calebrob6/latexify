@@ -47,6 +47,7 @@ def main():
 
     if which("latex") == None or which("dvipng") == None:
         print "Error! The commands `latex` and `dvipng` are required and could not be found in your environment."
+        return
 
     args = doArgs(sys.argv[1:], "LaTeX to PNG utility")
 
