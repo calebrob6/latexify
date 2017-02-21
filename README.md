@@ -1,6 +1,7 @@
 # latexify
 
 Short python script that creates a PNG image from a latex math expression.
+It requires `latex` and `dvipng` to work. 
 
 Example: `python latexify.py "y = \sum_{i=1}^n (w_i x_i) + b" -o example.png`
 
